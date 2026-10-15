@@ -42,6 +42,10 @@ For the _Thread of Agreement_, [Polis](https://github.com/compdemocracy/polis) c
 
 Apart from the technological developments, we are currently working on reaching out to global leaders in various domains, starting with AI safety and philanthropy. See [#3](https://github.com/hermesloom/hermesloom/issues/3) for the ongoing progress on this.
 
+## Data
+
+The complete foundation dataset is checked in under [`data/`](data/README.md).
+
 ## Setup
 
 1. Install Node.js >= 20
