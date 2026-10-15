@@ -1,6 +1,6 @@
-# Hermes' Loom
+# Stiftungsfinder
 
-Driving regenerative societal transformation through humanist artificial intelligence.
+Find the German foundations most likely to fund your non-profit project. A [Hermes' Loom](https://hermesloom.org/) project.
 
 ## Overview
 
@@ -33,7 +33,7 @@ Note that in this context, "non-profit" only refers to Hermes' Loom itself, and 
 As a very first step, we built the proof of concept for the _Thread of Wealth_. More specifically:
 
 1. We have scraped the "foundation purposes" of all ~30,000 German foundations and calculated the embedding vectors for them.
-2. On https://app.hermesloom.org (built with Next.js, NextUI, MongoDB, Pinecone, Vercel, OpenAI), anyone can enter any project description, which gets converted to a "hypothetical" foundation purpose.
+2. On https://stiftungsfinder.nalenz.org (built with Next.js, NextUI, MongoDB, Pinecone, Vercel, OpenAI), anyone can enter any project description, which gets converted to a "hypothetical" foundation purpose.
 3. This is then matched against the purposes of all real German foundations using cosine similarity ([semantic matching](https://en.wikipedia.org/wiki/Semantic_matching)), thus presumably making it trivial to find the best foundation to fund this project.
 
 See [#2](https://github.com/hermesloom/hermesloom/issues/2) as well as the slide deck [Enhancing Accessibility to Non-Profit Funding Through AI](https://docs.google.com/presentation/d/1dKf9l3JTdssQXnSpVuIboeOEqy9rVFIqIfidVvdiB_g/edit) for more details and concrete ideas for expanding this, in order to make it actually useful.

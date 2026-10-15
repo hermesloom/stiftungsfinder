@@ -1,10 +1,10 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Hermes' Loom",
+  name: "Stiftungsfinder",
   description:
-    "Driving regenerative societal transformation through humanist artificial intelligence.",
+    "Find the German foundations most likely to fund your non-profit project.",
   links: {
-    github: "https://github.com/hermesloom/hermesloom",
+    github: "https://github.com/hermesloom/stiftungsfinder",
   },
 };
